@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        ds: ["DS Holzschrift"],
+        ds: ['Oswald'],
       },
     },
   },
