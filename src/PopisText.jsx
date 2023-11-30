@@ -2,9 +2,16 @@ import { motion } from "framer-motion"
 
 function PopisText() {
   return (
-    <motion.div className="text-white font-ds w-8/12 flex justify-center items-end pb-5">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+    <motion.div className="text-white font-ds w-8/12 flex justify-center items-end pb-5 px-5">
+        <span className="text-xl">
+          In urban areas like Tokyo, Osaka, and Kyoto, you'll find a vibrant nightlife with numerous entertainment options. Restaurants, bars, izakayas (Japanese pubs), and nightclubs cater to various tastes. Many establishments stay open late, offering a wide range of experiences, from enjoying traditional sake in a quiet izakaya to dancing in a high-energy nightclub.
+          <br/>
+          <br/>
+          In addition to the bustling urban nightlife, Japan has beautiful traditional events and festivals that can occur at night. Lantern festivals, illuminated cherry blossom viewing events, and traditional performances often take place after sunset.
+          <br/>
+          <br/>
+          Japan is also known for its futuristic cityscapes with dazzling neon lights, especially in places like Akihabara in Tokyo. This creates a unique and visually stunning atmosphere, showcasing the blend of modern technology and traditional culture.        
+        </span>
     </motion.div>
   )
 }
